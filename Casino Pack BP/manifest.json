@@ -1,0 +1,63 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"CH"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.17"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "Casino Pack",
+		"description": "",
+		"min_engine_version": [
+			1,
+			20,
+			70
+		],
+		"uuid": "01242c95-e995-451e-87cb-d5c455fabdb4",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "38c2987f-c1e2-4a5e-85c4-56f263584f35",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "Test Scripting",
+			"type": "script",
+			"uuid": "63e77c14-02c4-401b-bcdb-d00f9a1a9194",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
